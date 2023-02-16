@@ -1,0 +1,326 @@
+body,
+main,
+div,
+ul,
+li,
+p,
+button,
+h1 {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.button {
+  border: 1px solid rgb(13, 63, 230);
+  padding: 0.2rem 0.5rem;
+}
+.clienteCard {
+  padding: 1rem;
+  border: 1px solid #202430;
+  margin-top: 1rem;
+  position: relative;
+}
+.clienteCard p {
+  color: rgb(13, 63, 230);
+  max-width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.clienteCard span {
+  color: rgb(9, 8, 24);
+}
+.clienteCard button {
+  background-color: rgb(13, 63, 230);
+  color: #ffffff;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+.clienteCard a {
+  background-color: rgb(13, 63, 230);
+  color: #ffffff;
+  display: block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  text-align: center;
+}
+.clienteCard .Editar {
+  width: 4rem;
+  position: absolute;
+  right: 0px;
+  top: -8px;
+}
+.clienteCard .conteinerClientes {
+  width: 90vw;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.conteinerModalCliente {
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.conteinerModalCliente .modalCliente {
+  background-color: #ffffff;
+  width: 95vw;
+  position: absolute;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  margin-top: 2rem;
+}
+.conteinerModalCliente .closeButton {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 2rem;
+  background-color: transparent;
+}
+.conteinerModalCliente button {
+  font-size: 1.4rem;
+}
+.conteinerModalCliente .intputConteiner {
+  padding-top: 0.5rem;
+  width: 90%;
+}
+.conteinerModalCliente .intputConteiner label {
+  display: block;
+  width: 100%;
+}
+.conteinerModalCliente .intputConteiner p {
+  font-size: 1rem;
+  color: #202430;
+}
+.conteinerModalCliente .intputConteiner input {
+  width: 75vw;
+  height: 2rem;
+}
+@media (min-width: 1200px) {
+  .conteinerModalCliente .modalCliente {
+    width: 80vw;
+  }
+}
+
+.desativar {
+  display: none;
+}
+
+.modal {
+  width: 90vw;
+  margin: auto;
+  margin-top: 15vh;
+  border: 2px solid #202430;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 1.4rem;
+  text-align: center;
+  position: relative;
+}
+
+@media (min-width: 548px) {
+  .modal {
+    width: 80vw;
+  }
+}
+@media (min-width: 852px) {
+  .modal {
+    width: 60vw;
+  }
+}
+@media (min-width: 1200px) {
+  .modal {
+    width: 40vw;
+  }
+}
+header {
+  background-color: rgb(9, 8, 24);
+}
+header h1 {
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.conteinerClientes {
+  width: 90vw;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+main .conteinerClienteButton {
+  display: flex;
+  justify-content: center;
+}
+main .conteinerClienteButton button {
+  width: 90vw;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+main .proximaPag {
+  background-color: rgb(13, 63, 230);
+  color: #ffffff;
+  border: 1px solid rgb(13, 63, 230);
+  padding: 0.2rem 0.5rem;
+}
+main nav {
+  display: flex;
+  justify-content: space-between;
+}
+main nav .desativado {
+  opacity: 0%;
+}
+main .buttonConteiner {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.modal {
+  width: 90vw;
+  margin: auto;
+  margin-top: 15vh;
+  border: 2px solid #202430;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 1.4rem;
+  text-align: center;
+  position: relative;
+}
+
+@media (min-width: 548px) {
+  .modal {
+    width: 80vw;
+  }
+}
+@media (min-width: 852px) {
+  .modal {
+    width: 60vw;
+  }
+}
+@media (min-width: 1200px) {
+  .modal {
+    width: 40vw;
+  }
+}
+.button {
+  border: 1px solid rgb(13, 63, 230);
+  padding: 0.2rem 0.5rem;
+}
+.Login label {
+  display: block;
+  margin-top: 1rem;
+}
+.Login .buttonConteiner {
+  margin: auto;
+  margin-top: 1rem;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.Login input {
+  width: 70%;
+  height: 2rem;
+}
+.Login button {
+  font-size: 1.4rem;
+}
+.Login .Login--intputConteiner {
+  padding-top: 0.5rem;
+}
+.Login .Login--intputConteiner label {
+  display: block;
+  width: 100%;
+}
+.Login .Login--intputConteiner p {
+  font-size: 1rem;
+  color: #202430;
+}
+
+.modal {
+  width: 90vw;
+  margin: auto;
+  margin-top: 15vh;
+  border: 2px solid #202430;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 1.4rem;
+  text-align: center;
+  position: relative;
+}
+
+@media (min-width: 548px) {
+  .modal {
+    width: 80vw;
+  }
+}
+@media (min-width: 852px) {
+  .modal {
+    width: 60vw;
+  }
+}
+@media (min-width: 1200px) {
+  .modal {
+    width: 40vw;
+  }
+}
+.button {
+  border: 1px solid rgb(13, 63, 230);
+  padding: 0.2rem 0.5rem;
+}
+.Cadastro .buttonConteiner {
+  margin: auto;
+  margin-top: 1rem;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.Cadastro .Cadastro--intputConteiner {
+  padding-top: 0.5rem;
+}
+.Cadastro .Cadastro--intputConteiner label {
+  display: block;
+  width: 100%;
+}
+.Cadastro .Cadastro--intputConteiner p {
+  font-size: 1rem;
+  color: #202430;
+}
+.Cadastro input {
+  width: 70%;
+  height: 2rem;
+}
+.Cadastro button {
+  font-size: 1.4rem;
+}
+
+.voltar {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: rgb(13, 63, 230);
+  color: #ffffff;
+  font-size: 1.5rem;
+  border: 1px solid rgb(9, 8, 24);
+}/*# sourceMappingURL=global_style.css.map */

@@ -1,0 +1,35 @@
+@import "../../components/userModal/modal";
+@import "../../components/button/Button";
+
+.Cadastro {
+  .buttonConteiner {
+    margin: auto;
+    margin-top: 1rem;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .Cadastro--intputConteiner {
+    padding-top: 0.5rem;
+
+    label {
+      display: block;
+      width: 100%;
+    }
+
+    p {
+      font-size: 1rem;
+      color: $color3;
+    }
+  }
+
+  input {
+    width: 70%;
+    height: 2rem;
+  }
+
+  button {
+    font-size: 1.4rem;
+  }
+}

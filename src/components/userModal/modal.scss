@@ -1,0 +1,32 @@
+.modal {
+  width: 90vw;
+  margin: auto;
+  margin-top: 15vh;
+
+  border: 2px solid $color3;
+  border-radius: 2rem;
+  padding: 1rem;
+
+  font-size: 1.4rem;
+  text-align: center;
+
+  position: relative;
+}
+
+@media (min-width: 548px) {
+  .modal {
+    width: 80vw;
+  }
+}
+
+@media (min-width: 852px) {
+  .modal {
+    width: 60vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .modal {
+    width: 40vw;
+  }
+}

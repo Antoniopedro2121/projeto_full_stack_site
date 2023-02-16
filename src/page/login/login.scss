@@ -1,0 +1,40 @@
+@import "../../components/userModal/modal";
+@import "../../components/button/Button";
+
+.Login {
+  label {
+    display: block;
+    margin-top: 1rem;
+  }
+
+  .buttonConteiner {
+    margin: auto;
+    margin-top: 1rem;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  input {
+    width: 70%;
+    height: 2rem;
+  }
+
+  button {
+    font-size: 1.4rem;
+  }
+
+  .Login--intputConteiner {
+    padding-top: 0.5rem;
+
+    label {
+      display: block;
+      width: 100%;
+    }
+
+    p {
+      font-size: 1rem;
+      color: $color3;
+    }
+  }
+}

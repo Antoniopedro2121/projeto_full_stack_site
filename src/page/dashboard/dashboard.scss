@@ -1,0 +1,51 @@
+header {
+  background-color: $color2;
+
+  h1 {
+    color: $color4;
+    padding: 1rem;
+    text-align: center;
+  }
+}
+
+.conteinerClientes {
+  width: 90vw;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+main {
+  .conteinerClienteButton {
+    display: flex;
+    justify-content: center;
+  }
+  .conteinerClienteButton button {
+    width: 90vw;
+    margin-top: 1rem;
+
+    font-size: 2rem;
+  }
+
+  .proximaPag {
+    background-color: $color1;
+    color: $color4;
+
+    border: 1px solid $color1;
+    padding: 0.2rem 0.5rem;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+
+    .desativado {
+      opacity: 0%;
+    }
+  }
+
+  .buttonConteiner {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
+}

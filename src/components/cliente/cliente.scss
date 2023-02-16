@@ -1,0 +1,56 @@
+.clienteCard {
+  padding: 1rem;
+  border: 1px solid $color3;
+  margin-top: 1rem;
+
+  position: relative;
+
+  p {
+    color: $color1;
+
+    max-width: 90%;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  span {
+    color: $color2;
+  }
+
+  button {
+    background-color: $color1;
+    color: $color4;
+
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+  }
+
+  a {
+    background-color: $color1;
+    color: $color4;
+
+    display: block;
+
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .Editar {
+    width: 4rem;
+
+    position: absolute;
+    right: 0px;
+    top: -8px;
+  }
+
+  .conteinerClientes {
+    width: 90vw;
+    margin: auto;
+    margin-top: 2rem;
+  }
+}

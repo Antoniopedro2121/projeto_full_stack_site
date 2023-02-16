@@ -1,0 +1,74 @@
+.conteinerModalCliente {
+  position: absolute;
+  top: 0px;
+
+  display: flex;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgba($color: #000000, $alpha: 0.5);
+
+  .modalCliente {
+    background-color: $color4;
+    width: 95vw;
+
+    position: absolute;
+
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+
+    margin-top: 2rem;
+  }
+
+  .closeButton {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 2rem;
+
+    background-color: transparent;
+  }
+
+  button {
+    font-size: 1.4rem;
+  }
+
+  .intputConteiner {
+    padding-top: 0.5rem;
+
+    width: 90%;
+
+    label {
+      display: block;
+      width: 100%;
+    }
+
+    p {
+      font-size: 1rem;
+      color: $color3;
+    }
+
+    input {
+      width: 75vw;
+      height: 2rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .modalCliente {
+      width: 80vw;
+    }
+  }
+}
+
+.desativar {
+  display: none;
+}
